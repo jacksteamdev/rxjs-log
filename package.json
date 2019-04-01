@@ -1,8 +1,14 @@
 {
   "name": "rxjs-log",
   "version": "0.1.0",
-  "description": "RxJS Observables for Chrome API events.",
-  "repository": "",
+  "description": "Easily log RxJS Observables to the console with this operator",
+  "repository": "jacksteamdev/rxjs-log.git",
+  "keywords": [
+    "rxjs",
+    "observable",
+    "console",
+    "debug"
+  ],
   "license": "MIT",
   "author": "Jack and Amy Steam <jacksteamdev@gmail.com>",
   "files": [

@@ -17,7 +17,7 @@ export default [
         sourcemap: 'inline',
       },
     ],
-    external: ['rxjs'],
+    external: ['rxjs/operators'],
     plugins: [code()],
   },
 ]
