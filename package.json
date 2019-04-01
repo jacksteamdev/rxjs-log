@@ -37,11 +37,11 @@
   "devDependencies": {
     "@sucrase/jest-plugin": "^2.0.0",
     "@types/chrome": "0.0.81",
-    "eslint": "5.15.1",
+    "eslint": "5.16.0",
     "jest": "^24.5.0",
     "rollup": "^1.7.4",
     "rollup-plugin-code-string": "^0.1.1",
-    "sinon-chrome": "^2.3.2",
+    "sinon-chrome": "^3.0.1",
     "sucrase": "^3.10.1"
   }
 }
