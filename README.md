@@ -1,5 +1,7 @@
 # RxJS log
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jacksteamdev/rxjs-log.svg)](https://greenkeeper.io/)
+
 # Install
 
 ```sh
