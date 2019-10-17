@@ -15,8 +15,8 @@
     "types",
     "dist"
   ],
-  "main": "build/bundle-cjs.js",
-  "module": "build/bundle-esm.js",
+  "main": "dist/rxjs-log-cjs.js",
+  "module": "dist/rxjs-log-esm.js",
   "types": "types/index.d.ts",
   "scripts": {
     "build": "rollup -c",

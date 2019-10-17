@@ -1,6 +1,6 @@
 # `@bumble/rxjs-log`
 
-A simple console.log operator to use with RxJs. 
+A simple console.log operator to use with RxJs. Now includes types!
 
 # Install
 
