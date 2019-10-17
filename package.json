@@ -1,6 +1,6 @@
 {
   "name": "@bumble/rxjs-log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily log RxJS Observables to the console with this operator",
   "repository": "jacksteamdev/rxjs-log",
   "keywords": [
