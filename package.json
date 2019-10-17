@@ -17,8 +17,10 @@
   ],
   "main": "build/bundle-cjs.js",
   "module": "build/bundle-esm.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "build": "rollup -c",
+    "build:types": "tsc -p tsconfig.d.json",
     "start": "rollup -c -w",
     "test": "jest",
     "preversion": "npm run build",
