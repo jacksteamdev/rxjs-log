@@ -1,23 +1,23 @@
 /* eslint-env node */
 
-import code from 'rollup-plugin-code-string'
+import typescript from 'rollup-plugin-typescript'
 
 export default [
   {
-    input: 'src/index.js',
+    input: 'src/index.ts',
     output: [
       {
-        file: 'build/bundle-esm.js',
+        file: 'dist/rxjs-log-esm.js',
         format: 'esm',
         sourcemap: 'inline',
       },
       {
-        file: 'build/bundle-cjs.js',
+        file: 'dist/rxjs-log-cjs.js',
         format: 'cjs',
         sourcemap: 'inline',
       },
     ],
     external: ['rxjs/operators'],
-    plugins: [code()],
+    plugins: [typescript()],
   },
 ]

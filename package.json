@@ -12,7 +12,8 @@
   "license": "MIT",
   "author": "Jack and Amy Steam <jacksteamdev@gmail.com>",
   "files": [
-    "build"
+    "types",
+    "dist"
   ],
   "main": "build/bundle-cjs.js",
   "module": "build/bundle-esm.js",
@@ -32,16 +33,13 @@
     }
   },
   "dependencies": {
-    "rxjs": "^6.4.0"
+    "rxjs": "^6.5.3"
   },
   "devDependencies": {
-    "@sucrase/jest-plugin": "^2.0.0",
-    "@types/chrome": "0.0.81",
-    "eslint": "5.15.1",
-    "jest": "^24.5.0",
-    "rollup": "^1.7.4",
-    "rollup-plugin-code-string": "^0.1.1",
-    "sinon-chrome": "^2.3.2",
-    "sucrase": "^3.10.1"
+    "eslint": "^5.15.1",
+    "rollup": "^1.24.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.4"
   }
 }

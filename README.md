@@ -1,15 +1,21 @@
-# RxJS log
+# `@bumble/rxjs-log`
+
+A simple console.log operator to use with RxJs. 
 
 # Install
 
 ```sh
-npm i rxjs-log
+npm i @bumble/rxjs-log -D
 ```
 
 # Usage
 
 ```javascript
-import log from 'rxjs-log'
+import { log } from '@bumble/rxjs-log'
 
-observable.pipe(log('click')).subscribe()
+fromEvent(document, 'click')
+  .pipe(log('document clicked'))
+  .subscribe()
+
+// -> document clicked { MouseEvent... }
 ```
